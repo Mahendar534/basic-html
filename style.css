@@ -1,0 +1,121 @@
+#border{
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* height: 100%; */
+}
+.font{
+    font-style: oblique;
+}
+.grayCont{
+    color: gray;
+}
+
+/* ------------------- */
+#first_div{
+    border: 1px solid black; 
+
+    /* height: 35vh;   */
+    
+
+}
+#logo{
+    display: flex;
+   gap: 10px;
+}
+.Logo{
+    /* border: 2px solid red; */
+    height: 17px;
+    width:  18px;
+    background-color: black;
+
+    
+}
+.head{
+    font-size: 40px;
+    
+    margin-bottom: 5px;
+}
+.Ghead{
+    padding-bottom: 50px;
+}
+#nav{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+    /* gap: 500px; */
+
+
+}
+#nav_heading{
+    display: flex;   
+    align-items: center;
+    flex-direction: column;
+  
+}
+/* ---------------- */
+#second_div{
+    border: 1px solid black;
+    /* height:45vh ;  */
+    display: flex; 
+}
+.section_one_pro{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 45px; */
+    
+}
+#section_one{
+    width: 30vw;
+    border: 1px solid black;
+}
+#section_Two{
+    width: 35vw;
+    border: 1px solid black;
+}
+.section_Two_osw{
+    border: 2px solid black;
+    /* height: 50%; */
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+}
+.link{
+    color: blue;
+}
+#section_Three{
+    
+    width: 35vw;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------------- */
+#third_div{
+    border: 2px solid black;
+    /* height: 40px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+#three_boxes{
+   text-align: center;
+   display: flex;
+    gap: 100px;
+   
+}
+.Third_div_s1{
+    border: 2px solid black;
+   border-radius: 40px;
+    height: 150px;
+    width: 200px;
+    
+}
